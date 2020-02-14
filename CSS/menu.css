@@ -28,6 +28,7 @@ nav li {
 nav li a {
     display: black;
 	text-decoration: none;
+	text-decoration-color: #001933;
 	color: #FFFFFF;
 
 }
