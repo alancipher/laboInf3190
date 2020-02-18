@@ -3,7 +3,7 @@
 	<head>
 
 
-    <base href=”http ://www. etudier .uqam. ca/” target=”   blank”/>
+   <!-- <base href=”http ://www. etudier .uqam. ca/” target=”   blank”/> -->
 		<meta charset="utf-8" /> <!-- La balise meta permet de faire lencodage e notre parge html ici la valeur de lattribut charset est utf-8 -->
 
     <!-- #### AJOUT POUR LE LABO 3 DANS HEAD  ######-->
@@ -25,7 +25,7 @@
 
 <!-- #### AJOUT POUR LE LABO 4 DANS HEAD  ######-->
 		<link rel="stylesheet" type="text/css" href="./CSS/menu.css">
-
+    <link rel="stylesheet" type="text/css" href="./CSS/popup.css">
 	</head>
 
 
@@ -44,14 +44,28 @@
         
 
 
-        <div id = "popup">
+       <!-- <div id = "popup">
 
          gerant : aliou amadou dialo
           la est une des plus grand srtuture dsna le domaine de de la mode au canada. nos produit sont aussi divers que des vtements pour hommes, femmes et enfants. nous avons 3 magasin magasin sur lile de montreal Et nous esperons vous y avoir bientot 
 
           <button onclick="document.getElementByID('popup').style.display='none'"> Cacher </button>
           
-        </div>
+        </div> -->
+
+        <div class="box">
+  <a class="button" href="#popup1">Let me Pop up</a>
+</div>
+
+<div id="popup1" class="overlay">
+  <div class="popup">
+    <h2>Here i am</h2>
+    <a class="close" href="#">&times;</a>
+    <div class="content">
+      Thank to pop me out of that button, but now i'm done so you can close this window.
+    </div>
+  </div>
+</div>
 
 
       </li>
@@ -224,6 +238,11 @@
 </html>
 
 <!-- 
+******FORMULAIRE ******
+-  form contient tous les elements du formulair
+- input : entree du formulaire avec son option datalist avec lattribut list qui prendra la valeur de l'id de datalist
+la fermeture de la balise input est optionnelle
+- textarea : est une entree de plusieurs ligne
 
 
 
