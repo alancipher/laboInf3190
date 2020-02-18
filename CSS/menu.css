@@ -26,7 +26,7 @@ nav li {
 }
 
 nav li a {
-    display: block;
+    display: block; /*permet davoir de la surbrillance de lien en block*/
 	/*text-decoration: none;*/
 	text-decoration-color: #001933;
 	color: #FFFFFF;
@@ -39,7 +39,7 @@ ul li  :hover {
 }
 
 
-#popup {
+.popup {
 	
     display: none;
 	background: #efefef;
