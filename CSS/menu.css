@@ -38,6 +38,11 @@ ul li  :hover {
 	background-color: #338888;
 }
 
+map area :hover{
+
+	background-color: gold;
+}
+
 
 .popup {
 	
