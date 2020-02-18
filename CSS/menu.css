@@ -42,6 +42,13 @@ map area :hover{
 
 	background-color: #338888;
 }
+map area {
+    display: block; /*permet davoir de la surbrillance de lien en block*/
+	/*text-decoration: none;*/
+	text-decoration-color: #001933;
+	color: #FFFFFF;
+
+}
 
 
 .popup {
