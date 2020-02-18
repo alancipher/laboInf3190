@@ -26,14 +26,25 @@ nav li {
 }
 
 nav li a {
-    display: black;
-	text-decoration: none;
+    display: block;
+	/*text-decoration: none;*/
 	text-decoration-color: #001933;
 	color: #FFFFFF;
 
 }
 
-nav li: hover {
+nav :hover  li {
 
 	background-color: #338888;
+}
+
+
+#popup {
+	
+    display: none;
+	background: #efefef;
+    border: 1px solid black; 
+	width: 50%; 
+	height: 200%;
+
 }
