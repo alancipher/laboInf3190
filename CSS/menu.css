@@ -33,7 +33,7 @@ nav li a {
 
 }
 
-li :hover {
+nav li a :hover {
 
 	background-color: #338888;
 }
