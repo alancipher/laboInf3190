@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Nunito', sans-serif;
-  color: #384047;
+  color: #f2f2f2;
 }
 
 form {
@@ -96,7 +96,7 @@ label.light {
 
 .number {
   background-color: #5fcf80;
-  color: #fff;
+  color: black;
   height: 30px;
   width: 30px;
   display: inline-block;
