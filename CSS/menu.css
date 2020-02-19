@@ -3,7 +3,66 @@ html{
   color : #FF00FF;
 }
 
-nav ul {
+body {margin: 0;}
+
+ul.sidenav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+ul.sidenav li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+ 
+ul.sidenav li a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+ul.sidenav li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+div.content {
+  margin-left: 25%;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 900px) {
+  ul.sidenav {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  
+  ul.sidenav li a {
+    float: left;
+    padding: 15px;
+  }
+  
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  ul.sidenav li a {
+    text-align: center;
+    float: none;
+  }
+}
+
+
+/*nav ul {
 
 	padding: 0px;
 	margin: 0px;
@@ -26,8 +85,8 @@ nav li {
 }
 
 nav li a {
-    display: block; /*permet davoir de la surbrillance de lien en block*/
-	/*text-decoration: none;*/
+    display: block; 
+	
 	text-decoration-color: #001933;
 	color: #FFFFFF;
 
@@ -43,12 +102,11 @@ map area :hover{
 	background-color: #338888;
 }
 map area {
-    display: block; /*permet davoir de la surbrillance de lien en block*/
-	/*text-decoration: none;*/
+    display: block; 
 	text-decoration-color: #001933;
 	color: #FFFFFF;
 
-}
+}    
 
 
 .popup {
@@ -59,4 +117,14 @@ map area {
 	width: 50%; 
 	height: 200%;
 
-}
+}   
+     */
+
+
+ /*map area {
+    display: block;permet davoir de la surbrillance de lien en block*/
+	/*text-decoration: none;*/
+
+/*  nav li a {
+    display: block; permet davoir de la surbrillance de lien en block*/
+	/*text-decoration: none;*/
