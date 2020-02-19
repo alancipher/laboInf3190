@@ -24,14 +24,14 @@ h1 {
 
 input[type="text"],
 input[type="password"],
-input[type="date"],
+/*input[type="date"],
 input[type="datetime"],
 input[type="email"],
 input[type="number"],
 input[type="search"],
 input[type="tel"],
 input[type="time"],
-input[type="url"],
+input[type="url"],*/
 textarea,
 select {
   background: rgba(255,255,255,0.1);
@@ -42,7 +42,7 @@ select {
   outline: 0;
   padding: 15px;
   width: 100%;
-  background-color: #C0C0C0;
+  background-color: #ffffff;
   color: #8a97a0;
   box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
   margin-bottom: 30px;
